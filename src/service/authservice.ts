@@ -10,7 +10,7 @@ export default class AuthService{
             step: 30, // Intervalo de tempo em segundos
             window: 1, // Janela de tolerância para aceitar códigos fora do tempo (opcional)
             digits: 6, // Tamanho do código OTP,
-            algorithm: HashAlgorithms.SHA256
+            algorithm: HashAlgorithms.SHA1
         };
     }
 
